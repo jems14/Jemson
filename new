@@ -1,0 +1,13 @@
+
+add()
+{
+c=$1
+d=$2
+e=`expr $c + $d`
+echo " The sum is $e"
+}
+echo "Enter first no"
+read c
+echo "Enter second no"
+read d
+add $c $d
